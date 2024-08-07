@@ -33,7 +33,7 @@ gift_cards_mobile_recharges = driver.find_element(By.LINK_TEXT,"Gift Cards & Mob
 gift_cards_mobile_recharges.click()
 
 # Wait for a moment to ensure the page loads
-time.sleep(3)
+time.sleep(4)
 
 # Close the WebDriver
 driver.quit()
